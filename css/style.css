@@ -1,0 +1,56 @@
+*{
+
+}
+
+.watch-beg-shows img{
+
+    height: 125px;
+    padding: 10px;
+}
+.watch-beg-shows h1{
+    padding-left: 20px;
+}
+.cat1{
+    background-color: #FFA500;
+    border-radius: 20px;
+   
+}
+.cat2{
+    background-color: #0000FF;
+    border-radius: 20px
+   
+}
+.cat3{
+    background-color: #DA70D6;
+    border-radius:20px;
+   
+}
+.btn-primary{
+    background-color: #FF2C7F;
+}
+.buy-now-button {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+}
+.orange-bg {
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.container{
+    margin-bottom: 120px;
+}
+.carousel{
+    padding: 10px;
+    background-color: #FCEAE8;
+}
+.carousel h3{
+    color: #FF589B;
+}
