@@ -13,16 +13,20 @@
 .cat1{
     background-color: #FFA500;
     border-radius: 20px;
+    margin-bottom: 20px;
    
 }
 .cat2{
     background-color: #0000FF;
-    border-radius: 20px
+    border-radius: 20px;
+    margin-bottom: 20px;
+
    
 }
 .cat3{
     background-color: #DA70D6;
     border-radius:20px;
+    margin-bottom: 20px;
    
 }
 .btn-primary{
@@ -43,6 +47,10 @@ footer{
 .orange-bg {
     background-color: #fceae8;
     border-radius: 10px;
+    text-align: center;
+}
+.orange-bg input{
+    margin: 0 auto;
 }
 .container{
     margin-bottom: 120px;
