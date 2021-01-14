@@ -11,7 +11,7 @@
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png">
@@ -24,16 +24,15 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Shoes</a>
-                        <a class="nav-link" href="#">Backpack</a>
-                        <a class="nav-link" href="#">Subscribe</a>
+                        <a class="nav-link" href="#shoes">Shoes</a>
+                        <a class="nav-link" href="#backpack">Backpack</a>
+                        <a class="nav-link" href="#subscrive">Subscribe</a>
                     </div>
                 </div>
             </div>
         </nav>
 
-        <section class="container mt-5 ">
-
+        <section class="container mt-5 carouselpart">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -134,7 +133,7 @@
 
 
         <!-- Shoes Card -->
-        <section class="container">
+        <section class="container " id="shoes">
             <h2 style="text-align: center; padding: 15px; font-weight:bold; font-size: 50px;color: #898489;">SHOES</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -187,7 +186,7 @@
         <!-- Back -->
 
 
-        <section class="container">
+        <section class="container" id="backpack">
             <h2 style="text-align: center; padding: 15px; font-weight:bold; font-size: 50px;color: #BC1C1C;">BACKPACK</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -239,7 +238,7 @@
         </section>
 
         <!-- Contruc -->
-        <section class="container h-50 d-flex align-items-center justify-content-center orange-bg mt-5">
+        <section id="subscrive" class="container h-50 d-flex align-items-center justify-content-center orange-bg mt-5">
             <div class="mx-auto py-5" style="width: 400px;">
                 <h3 class="text-uppercase w-100">Let's Stay in Touch</h3>
                 <h6 class="text-secondary">Get updates on sales specials and more</h6>
